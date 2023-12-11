@@ -2,14 +2,12 @@
     background-color: rgb(233, 225, 225);
     display: flex;
 }
-/* .container{
-    display: flex;
-} */
+
 .container{
     margin: 2em;
 }
 .nav-bar{
-    background-color: blue;
+    background-color: rgb(255, 238, 0);
 }
 .nav-bar ul{
     display: flex;
@@ -21,6 +19,12 @@
 }
 a{
     margin-left: 3em;
-    color: white;
+    color: black;
     text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration-style: dashed;
 }
