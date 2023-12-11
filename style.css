@@ -8,3 +8,19 @@
 .container{
     margin: 2em;
 }
+.nav-bar{
+    background-color: blue;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    list-style: none;
+}
+a{
+    margin-left: 3em;
+    color: white;
+    text-decoration: none;
+}
